@@ -12,7 +12,7 @@ def check_word(word1,word2):
     if word1 == word2:
         return True
     else:
-        False
+        return False
 
 def hide_word(word1):
     hidden = ""
